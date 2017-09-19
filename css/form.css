@@ -1,0 +1,47 @@
+/* form styles */
+form .row {
+display: block;
+padding: 10px 12px;
+margin-bottom: 7px;
+width: 50%;
+}
+form .row:hover {
+background: #f1f7fa;
+}
+form input, textarea {
+	width: 100%;
+	padding: 10px 12px;
+	padding-right: 30px;
+}
+
+form .submit {
+	width: 20%;
+	text-align: center;
+}
+
+form .submit:focus {
+	width: 20%;
+}
+
+form input:focus, form textarea:focus {
+	outline: none;
+	display: inline-block;
+	padding: 10px 12px;
+	padding-right: 30px;
+	width: 100%;
+	/*font-family: 'Oxygen', sans-serif;*/
+	font-size: 1.1em;
+	font-weight: normal;
+	color: #898989;
+}
+
+/* placeholder styles: http://stackoverflow.com/a/2610741/477958 */
+::-webkit-input-placeholder { color: #aaafbd; font-style: italic; } /* WebKit */
+:-moz-placeholder { color: #aaafbd; font-style: italic; } /* Mozilla Firefox 4 to 18 */
+::-moz-placeholder { color: #aaafbd; font-style: italic; } /* Mozilla Firefox 19+ */
+:-ms-input-placeholder { color: #aaafbd; font-style: italic; } /* Internet Explorer 10+ */
+
+.comment {
+	width: 60%;
+	margin: 0 auto;
+}

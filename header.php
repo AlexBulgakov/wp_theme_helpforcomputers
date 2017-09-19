@@ -51,8 +51,8 @@
             <div class="container-fluid">
               <!-- Brand and toggle get grouped for better mobile display -->
               <div class="navbar-header">
-                <a class="navbar-brand" href="index.html">
-                  <img src="<?php bloginfo( "template_directory" ); ?>/img/logo_2_full.png" alt="Logo">
+                <a class="navbar-brand" href="">
+                  <img src="<?php bloginfo( "template_directory" ); ?>/img/logo_2_full_2.png" alt="Logo">
                 </a>
               </div>
                 <!-- Collect the nav links, forms, and other content for toggling -->
@@ -66,7 +66,7 @@
                   </ul>
 
                   <div class="navbar-right">
-                    <a href="tel:+78129937633" style="color: #212121;"><h4>+7 (812) 993-76-33</h4></a>
+                    <a href="tel:+78129937633" id="phoneHead"><h4>+7 (812) 993-76-33</h4></a>
                     <p>пн - пт 10<sup>00</sup> - 20<sup>00</sup></p>
                     <p>сб - вс 12<sup>00</sup> - 20<sup>00</sup></p>
                   </div>
